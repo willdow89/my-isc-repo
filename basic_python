@@ -24,7 +24,39 @@ print(a + "squared equals" + b + "squared" + c + "squared")
 
 x = 1
 
-while x <= 10
-    y = x * 2
+while x <= 10:
+    y = x * 3
     x += 1
- 
+
+print(y)
+
+
+gases = ['He', 'Ne', 'Ar', 'Kr']
+count = 0
+
+while count < 4:
+    item = gases[count]
+    print(item,count)
+    count += 1
+
+
+name = "Lisa"
+
+if name == "Lisa":
+    print(name + ' plays saxophone')
+elif name == "Bart":
+    print(name + 'rides skateboard')
+else:
+    print(name + 'lives in Springfield')
+
+
+z = 1
+if z: print(z," is True")
+if 22.1: print("True")
+if "hello": print("True")
+if [1,2]: print("True")
+
+
+
+
+
